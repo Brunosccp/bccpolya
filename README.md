@@ -40,10 +40,10 @@ Chegaremos a x = 3,00009.
 11|**Variaveis**  
 12|l: **Inteiro**;  
 13|xp: **Ponto Flutuante**;  
-14|xp $\leftarrow$x;  
+14|xp = x;  
 15|**Para** l menor que 100, l sendo 0, incremente l  
 16|xp=xp/2 + x/(2*xp);  
-17|**Retornar** a xp;  
+17|**Retornar** xp;  
 
 ###Solução Fluxograma:
 
