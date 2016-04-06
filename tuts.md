@@ -16,6 +16,7 @@ Ao resolver a expressão temos o primeiro número, é uma aproximação não pre
 
 ####Exemplificação:
 
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 Nesse exemplo chegarei a uma aproximação da raiz de 9:
 
 Substituindo os valor n e r por 9, temos a expressão da seguinte maneira:
