@@ -27,23 +27,23 @@ Chegaremos a x = 3,00009.
 
 ###Solução Português Estruturado:
 
-01|**Aproximação de Raízes**
-02|**Varíaveis**
-03|raiz: **Ponto Flutuante**
-04|**Início**
-05|**Variaveis**
-06|x: **Ponto Flutuante**
-07|**Imprimir** "Insira o número:";
-08|**Ler** x;
-09|**Imprimir** "Raiz: ,raiz(x);
-10|raiz: **Ponto Flutuante** **parâmetro** x **Ponto Flutuante**;
-11|**Variaveis**
-12|l: **Inteiro**;
-13|xp: **Ponto Flutuante**;
-14|xp $\leftarrow$x;
-15|**Para** l menor que 100, l sendo 0, incremente l
-16|xp=xp/2 + x/(2*xp);
-17|**Retornar** a xp;
+01|**Aproximação de Raízes**  
+02|**Varíaveis**  
+03|raiz: **Ponto Flutuante**  
+04|**Início**  
+05|**Variaveis**  
+06|x: **Ponto Flutuante**  
+07|**Imprimir** "Insira o número:";  
+08|**Ler** x;  
+09|**Imprimir** "Raiz: ,raiz(x);  
+10|raiz: **Ponto Flutuante** **parâmetro** x **Ponto Flutuante**;  
+11|**Variaveis**  
+12|l: **Inteiro**;  
+13|xp: **Ponto Flutuante**;  
+14|xp $\leftarrow$x;  
+15|**Para** l menor que 100, l sendo 0, incremente l  
+16|xp=xp/2 + x/(2*xp);  
+17|**Retornar** a xp;  
 
 ###Solução Fluxograma:
 
