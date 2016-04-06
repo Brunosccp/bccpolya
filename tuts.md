@@ -1,3 +1,6 @@
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+
 ### Descrição
 
 Foi proposto fazer uma função em linguagem C que calcula uma aproximação de uma raiz quadrada de um número real sem utilizar o comando sqrt() ou o pow(), da biblioteca math.h.
