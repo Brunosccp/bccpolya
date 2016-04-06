@@ -5,23 +5,23 @@ Foi proposto fazer uma função em linguagem C que calcula uma aproximação de 
 ###Solução matemática:
 
 A expressão abaixo consegue uma aproximação da raiz quadrada:
-Inicialmente, r e n são o mesmo número, ambos o número que queremos a sua raiz.
-![](http://oi68.tinypic.com/wi65w6.jpg)
+Inicialmente, r e n são o mesmo número, ambos o número que queremos a sua raiz.  
+![](http://oi68.tinypic.com/wi65w6.jpg)  
 Ao resolver a expressão temos o primeiro número, é uma aproximação não precisa da raiz, devido a isso há a necessidade de atribuir o valor de r a x na expressão, mantendo o n, e então, o novo r terá um valor mais próximo da raiz do número. Quanto mais vezes repetir a expressão, mais preciso o valor da raiz.
 
 ####Exemplificação:
 
 Nesse exemplo chegarei a uma aproximação da raiz de 9:
 
-Substituindo os valor **n** e **r** por 9, temos a expressão da seguinte maneira:
-![](http://oi64.tinypic.com/2ynrxuv.jpg)
-E então chegaremos a **x = 5**. Então agora substituindo x pelo r, para chegar a raiz com uma maior precisão:
+Substituindo os valor **n** e **r** por 9, temos a expressão da seguinte maneira:  
+![](http://oi64.tinypic.com/2ynrxuv.jpg)   
+E então chegaremos a **x = 5**. Então agora substituindo x pelo r, para chegar a raiz com uma maior precisão:  
 
-![](http://oi65.tinypic.com/s4cbio.jpg)
-Dessa vez chegaremos a **x = 17/5** que é também **3,4** então substituiremos x por r novamente
-![](http://oi63.tinypic.com/24zylj9.jpg)
-Então finalmente chegaremos a x = 3,02353, que se considerarmos somente a parte inteira o resultado já satisfaz, ao substituir novamente x por r, já teremos uma precisão melhor ainda, com a parte inteira e os próximos 4 algarismos decimais corretos:
-![](http://oi66.tinypic.com/14oasnq.jpg)
+![](http://oi65.tinypic.com/s4cbio.jpg)  
+Dessa vez chegaremos a **x = 17/5** que é também **3,4** então substituiremos x por r novamente  
+![](http://oi63.tinypic.com/24zylj9.jpg)  
+Então finalmente chegaremos a x = 3,02353, que se considerarmos somente a parte inteira o resultado já satisfaz, ao substituir novamente x por r, já teremos uma precisão melhor ainda, com a parte inteira e os próximos 4 algarismos decimais corretos:  
+![](http://oi66.tinypic.com/14oasnq.jpg)  
 
 Chegaremos a x = 3,00009.
 
